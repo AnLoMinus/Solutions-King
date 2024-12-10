@@ -588,7 +588,7 @@ main > section:not(.hero) {
   }
 
   .about-grid {
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .features-list {
@@ -607,7 +607,7 @@ main > section:not(.hero) {
 
 .careers-section {
   background: linear-gradient(135deg, var(--primary), var(--accent));
-  padding: 6rem 2rem;
+  /* padding: 6rem 2rem; */
   color: white;
   margin-top: 4rem;
   position: relative;
@@ -681,7 +681,7 @@ main > section:not(.hero) {
 
 .benefits {
   background: rgba(0, 0, 0, 0.3);
-  padding: 2.5rem;
+  padding: 0.5rem;
   border-radius: 20px;
   margin: 2.5rem 0;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -1056,7 +1056,7 @@ main > section:not(.hero) {
 .dancer-details {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   padding: 1.5rem;
   background: linear-gradient(135deg, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.05));
